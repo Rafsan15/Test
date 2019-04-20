@@ -21,7 +21,7 @@
     <?php
         if(isset($_POST["Submit"])){
             if(strlen($_POST["Name"])<5 || strlen($_POST["Name"])>10){
-                echo  "<P style='color: red'> Invalid Input</P>";
+                echo  "<P style='color: green'> Invalid Input</P>";
             }
         }
     ?>
